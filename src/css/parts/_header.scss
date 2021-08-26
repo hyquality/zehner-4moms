@@ -1,0 +1,19 @@
+header.main-header{
+  nav{
+    & > ul{
+      & > li{
+        &  ul{
+          a{
+            @apply block;
+            line-height: 48px;
+            &:hover{
+              @apply block text-blue_1;
+
+              background: transparent url("../img/svg/menu-right-arrow.svg") no-repeat 100% 50%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

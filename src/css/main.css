@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: 'Century Gothic';
+  src: url("../fonts/CenturyGothic.eot");
+  src: url("../fonts/CenturyGothic.eot?#iefix") format("embedded-opentype"), url("../fonts/CenturyGothic.woff2") format("woff2"), url("../fonts/CenturyGothic.woff") format("woff"), url("../fonts/CenturyGothic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Century Gothic';
+  src: url("../fonts/CenturyGothic-Bold.eot");
+  src: url("../fonts/CenturyGothic-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/CenturyGothic-Bold.woff2") format("woff2"), url("../fonts/CenturyGothic-Bold.woff") format("woff"), url("../fonts/CenturyGothic-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Century Gothic';
+  src: url("../fonts/CenturyGothic-Italic.eot");
+  src: url("../fonts/CenturyGothic-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/CenturyGothic-Italic.woff2") format("woff2"), url("../fonts/CenturyGothic-Italic.woff") format("woff"), url("../fonts/CenturyGothic-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Century Gothic';
+  src: url("`../fonts`/CenturyGothic-BoldItalic.eot");
+  src: url("../fonts/CenturyGothic-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/CenturyGothic-BoldItalic.woff2") format("woff2"), url("../fonts/CenturyGothic-BoldItalic.woff") format("woff"), url("../fonts/CenturyGothic-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap; }
+
+.hover-trigger > .hover-target {
+  @apply hidden relative; }
+
+.hover-trigger:hover > .hover-target {
+  @apply block absolute; }
+
+.btn {
+  @apply bg-black text-white rounded py-2.5 px-12; }
+
+header.main-header nav > ul > li ul a {
+  @apply block;
+  line-height: 48px; }
+  header.main-header nav > ul > li ul a:hover {
+    @apply block text-blue_1;
+    background: transparent url("../img/svg/menu-right-arrow.svg") no-repeat 100% 50%; }
+
+body {
+  @apply text-main bg-white;
+  font-family: "Century Gothic", serif; }

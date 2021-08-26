@@ -1,0 +1,10 @@
+.hover-trigger > .hover-target {
+  @apply hidden relative;
+}
+
+.hover-trigger:hover > .hover-target {
+  @apply block absolute;
+}
+.btn{
+  @apply bg-black text-white rounded py-2.5 px-12;
+}

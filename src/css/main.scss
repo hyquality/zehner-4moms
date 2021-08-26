@@ -1,0 +1,16 @@
+//All styles can be added here.
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import "parts/fonts";
+@import "parts/elements";
+@import "parts/header";
+html{
+   // font-size: 62.5%; //1rem = 10px
+}
+body {
+    @apply text-main bg-white;
+    font-family: "Century Gothic", serif
+}
